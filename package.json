@@ -1,0 +1,28 @@
+{
+  "name": "nodestudy",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-Liang/NodeStudy.git"
+  },
+  "keywords": [
+    "node",
+    "study"
+  ],
+  "author": "WeiGuoLiang (https://github.com/X-Liang)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/X-Liang/NodeStudy/issues"
+  },
+  "homepage": "https://github.com/X-Liang/NodeStudy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "htmlparser": "^1.7.7",
+    "request": "^2.88.0"
+  }
+}
