@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node 3.WebProject/index.js",
+    "descript": "// 只要npm start即可运行web程序，如果port 3000 被占用，可以使用PORT=3001 npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,8 +23,12 @@
   },
   "homepage": "https://github.com/X-Liang/NodeStudy#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "htmlparser": "^1.7.7",
-    "request": "^2.88.0"
+    "node-readability": "^3.0.0",
+    "npm": "^6.4.1",
+    "request": "^2.88.0",
+    "sqlite3": "^4.0.3"
   }
 }
